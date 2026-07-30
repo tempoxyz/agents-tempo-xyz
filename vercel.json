@@ -9,6 +9,18 @@
           "value": "application/http-message-signatures-directory+json"
         },
         {
+          "key": "Content-Digest",
+          "value": "sha-256=:VzxRbH6bp7Y8ePVa5cW2VtKrj3B2CzcNR9RYapRP05A=:"
+        },
+        {
+          "key": "Signature-Input",
+          "value": "directory=(\"@authority\";req \"content-digest\");created=1785446184;expires=1816982184;keyid=\"A32TOiwysay5usDI-iUSb29onQJ-pFxJ_569vTNNWhw\";alg=\"ed25519\";tag=\"http-message-signatures-directory\""
+        },
+        {
+          "key": "Signature",
+          "value": "directory=:75DqEt8pka93tUFW4TxH0BuyLq8Uxp5O6+gGYpPJHdbkQFYWBXRU7scvfTDBNF20Df30GofM032bydk0BmETCg==:"
+        },
+        {
           "key": "Cache-Control",
           "value": "public, max-age=300, must-revalidate"
         },

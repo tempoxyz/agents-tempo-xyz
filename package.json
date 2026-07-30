@@ -4,6 +4,7 @@
   "type": "module",
   "scripts": {
     "check": "npm test",
+    "sign": "node scripts/sign-directory.mjs",
     "test": "node --test"
   }
 }
