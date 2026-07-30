@@ -1,0 +1,9 @@
+{
+  "name": "agents-tempo-xyz",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "check": "npm test",
+    "test": "node --test"
+  }
+}
