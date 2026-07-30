@@ -50,5 +50,9 @@ WBA_DIRECTORY_EXPIRES=1816982184 \
 npm run sign
 ```
 
+During an overlap rotation, set `WBA_PRIVATE_JWK_PATHS` to the
+platform-delimited paths for every published key. The generator emits one
+response signature per key.
+
 Copy the generated public header values into `vercel.json`, then run
 `npm test` before publishing a directory change.
